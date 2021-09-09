@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Compiled and minified CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+        <!-- Icons -->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <!--font awesome-->
+        <script src="https://kit.fontawesome.com/12209d5a8b.js" crossorigin="anonymous"></script>
+
+    <title>Djames - Tables and Media</title>
+
+</head>
+<body class="grey darken-4">
+    <div class="container">
+        <h1 class="grey-text text-lighten-4">Tables and Media</h1>
+
+        <!--Table-->
+        <table class="">
+            <thead class="white-text">
+                <tr>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Location</th>
+                </tr>
+            </thead>
+            <tbody class="grey-text">
+                <tr>
+                    <td>Sheldon Bernier PhD</td>
+                    <td>Jalyn_OHara@yahoo.com</td>
+                    <td>78077 Hickle Mall</td>
+                </tr>
+                <tr>
+                    <td>Erick Pagac MD</td>
+                    <td>Gustave.Hagenes@gmail.com</td>
+                    <td>374 Timmy Walk</td>
+                </tr>
+                <tr>
+                    <td>Rosie Greenfelder</td>
+                    <td>Ola.Altenwerth@yahoo.com</td>
+                    <td>747 O'Reilly Neck</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <br><br>
+        <!--Striped Table-->
+        <table class="striped">
+            <thead class="white-text">
+                <tr>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Location</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="deep-purple-text text-darken-4">
+                    <td>Sheldon Bernier PhD</td>
+                    <td>Jalyn_OHara@yahoo.com</td>
+                    <td>78077 Hickle Mall</td>
+                </tr>
+                <tr class="yellow-text">
+                    <td>Erick Pagac MD</td>
+                    <td>Gustave.Hagenes@gmail.com</td>
+                    <td>374 Timmy Walk</td>
+                </tr>
+                <tr class="amber-text text-darken-1">
+                    <td>Rosie Greenfelder</td>
+                    <td>Ola.Altenwerth@yahoo.com</td>
+                    <td>747 O'Reilly Neck</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <br></br>
+        <!--Bordered, Highlighted and Responsive Table-->
+        <table class="white-text bordered highlight responsive-table">
+            <thead class="">
+                <tr>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Location</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Sheldon Bernier PhD</td>
+                    <td>Jalyn_OHara@yahoo.com</td>
+                    <td>78077 Hickle Mall</td>
+                </tr>
+                <tr>
+                    <td>Erick Pagac MD</td>
+                    <td>Gustave.Hagenes@gmail.com</td>
+                    <td>374 Timmy Walk</td>
+                </tr>
+                <tr>
+                    <td>Rosie Greenfelder</td>
+                    <td>Ola.Altenwerth@yahoo.com</td>
+                    <td>747 O'Reilly Neck</td>
+                </tr>
+            </tbody>
+        </table>
+        <br><br><br>
+
+        <div class="row">
+            <div class="col s12">
+                <img src="https://images.unsplash.com/photo-1631022737714-503f65f28cb9?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&dl=derek-lee-33U1MV0cOoc-unsplash.jpg&w=640" alt="" class="responsive-img">
+            </div>
+            <!--circle Image-->
+            <div class="col s12">
+                <img src="https://images.unsplash.com/photo-1631022737714-503f65f28cb9?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&dl=derek-lee-33U1MV0cOoc-unsplash.jpg&w=640" alt="" class="responsive-img circle">
+            </div>
+            <div class="col s12">
+                <img src="https://images.unsplash.com/photo-1619534596929-ede03f43fe73?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&dl=julia-haupt-iw0HuPX52Pw-unsplash.jpg&w=1920" alt="" class="responsive-img">
+            </div>
+        </div>
+
+        <!--Responsive video embed-->
+        <div class="video-container">
+            <iframe width="891" height="501" src="https://www.youtube.com/embed/_XoUOXHd-6g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
+
+
+        <!--Jquery CDN-->
+        <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+
+        <!--Compile and minified Javascript-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+        <script>
+        $(document).ready(function(){
+            $('.tabs').tabs();
+        })
+        </script>
+</body>
+</html>
